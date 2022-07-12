@@ -166,6 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4adc319de44073349ab168522e64c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  configuration: {fileID: 4900000, guid: 7a9f2abf96f39b94eb6825e20db60b30, type: 3}
+  configuration: {fileID: 4900000, guid: 3b5b2c5e669a424428c3bd1d5747dfea, type: 3}
   createOnEnable: 1
   eventsFromDispatcher: 1
