@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lVFEHAAuN4qtbgLYk0yRCrcEaLOdDbxixULsBPfREWc6mPUQHqurAOjBLm+0KTIvXKTaJxXm8B3rmMR2PTkh5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\draco\\Documents\\Coding Projects\\Chat-Client-Server\\ServerRSA\\net6.0\\Plugins\\ServerRSA\\ServerRSA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\draco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\draco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

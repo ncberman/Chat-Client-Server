@@ -1,0 +1,19 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 10.0.19044.0
+                                	CLS Version: 6.0.7
+                                	DarkRift: 2.10.1.0 - Pro
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.
+[Trace]   HttpHealthCheck       HTTP health check started at 'http://localhost:10666/health'
+[Trace]   BadWordFilter         Downloading bad word list from 'https://darkriftnetworking.com/DarkRift2/Resources/BadWords.xml'.
+[Trace]   DarkRiftServer        Binding listeners to ClientManager as server is externally visible.
+[Trace]   RemoteServerManager   No server registry connector configured, skipping registration.
+[Trace]   DefaultNetworkListener Starting bichannel listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   BadWordFilter         Loading bad word list.
+[Trace]   BadWordFilter         Bad word list loaded sucessfully!
+[Trace]   CommandEngine         Command entered: 'c'
+[Error]   CommandEngine         Unable to find an appropriate handler for the command. Cannot invoke it
+                                 System.InvalidOperationException: Could not find any plugins able to handle the command c.
+                                    at DarkRift.Server.CommandEngine.FindPluginWithCommand(String commandName) in C:\Users\draco\Downloads\DarkRift-2.10.1\DarkRift-2.10.1\DarkRift.Server\CommandEngine.cs:line 172
+                                    at DarkRift.Server.CommandEngine.FindCommand(String command) in C:\Users\draco\Downloads\DarkRift-2.10.1\DarkRift-2.10.1\DarkRift.Server\CommandEngine.cs:line 134
+                                    at DarkRift.Server.CommandEngine.HandleCommand(String command) in C:\Users\draco\Downloads\DarkRift-2.10.1\DarkRift-2.10.1\DarkRift.Server\CommandEngine.cs:line 67
